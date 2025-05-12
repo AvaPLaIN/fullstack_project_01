@@ -8,14 +8,14 @@ A Spring Boot Kotlin application.
 
 Build the JAR file:
 ```bash
-cd backend/fullstack
+cd backend
 ./gradlew build
 ```
 
 
 Build the Docker image:
 ```bash
-cd backend/fullstack
+cd backend
 docker build -t fullstack-backend .
 ```
 
@@ -28,7 +28,7 @@ docker run -p 8080:8080 fullstack-backend
 
 Build and run the application with Docker Compose:
 ```bash
-cd backend/fullstack
+cd backend
 docker-compose up -d
 ```
 
@@ -45,10 +45,12 @@ docker-compose down
 
 ### Running locally without Docker
 ```bash
+cd backend
 ./gradlew bootRun
 ```
 
 ### Building the application
 ```bash
+cd backend
 ./gradlew build
 ``` 
