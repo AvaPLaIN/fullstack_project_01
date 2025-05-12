@@ -6,6 +6,13 @@ A Spring Boot Kotlin application.
 
 ### Option 1: Using Docker directly
 
+Build the JAR file:
+```bash
+cd backend/fullstack
+./gradlew build
+```
+
+
 Build the Docker image:
 ```bash
 cd backend/fullstack
