@@ -11,6 +11,14 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend/fullstack" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/backend/fullstack" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
